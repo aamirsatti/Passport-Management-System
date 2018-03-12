@@ -1,0 +1,315 @@
+a:12:{s:6:"config";s:1495:"a:5:{s:10:"phpVersion";s:6:"5.6.14";s:10:"yiiVersion";s:10:"2.0.13-dev";s:11:"application";a:8:{s:3:"yii";s:10:"2.0.13-dev";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"5.6.14";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:69:"E:\Development\xampp\htdocs\PMS\fahad\vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:67:"E:\Development\xampp\htdocs\PMS\fahad\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.12.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:63:"E:\Development\xampp\htdocs\PMS\fahad\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:61:"E:\Development\xampp\htdocs\PMS\fahad\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:63:"E:\Development\xampp\htdocs\PMS\fahad\vendor/yiisoft/yii2-faker";}}}}";s:7:"request";s:12171:"a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:4:"1463";s:6:"origin";s:16:"http://localhost";s:12:"x-csrf-token";s:88:"Beop2bf7zZGsD9b7p1W4tNcef4iajAWVxNDWjhmmGHZx3E2bxsy5qJhohL_oZuLnkk0m2v_fVvaupL3EUOhMIw==";s:10:"user-agent";s:113:"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36";s:12:"content-type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:6:"accept";s:3:"*/*";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:7:"referer";s:57:"http://localhost/pms/fahad/web/index.php?r=passport/index";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:14:"en-US,en;q=0.9";s:6:"cookie";s:418:"wordpress_clef_session=d07e2701b98576ecd0f3ec3c6563c232%7C%7C3023165114%7C%7C1495815997; __distillery=a745200_0a517ea0-dc3d-4034-9e39-76a6020c8090-9e8894a49-2890c408dea5-de37; _ga=GA1.1.943853651.1497133222; PHPSESSID=rtldr6kt512eq7mifhufv1nfb5; _csrf=513bc68d29c446c15ef02aec0af4157b7cdec60b3bbf8e5627ffd346c920c11da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22t6dBq7t94gRDO3ZSESYReSScjtkJINTU%22%3B%7D";}s:15:"responseHeaders";a:8:{s:12:"X-Powered-By";s:10:"PHP/5.6.14";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"5a2bf211b4652";s:16:"X-Debug-Duration";s:3:"456";s:12:"X-Debug-Link";s:67:"/pms/fahad/web/index.php?r=debug%2Fdefault%2Fview&tag=5a2bf211b4652";}s:5:"route";s:21:"passport/updatestatus";s:6:"action";s:56:"app\controllers\PassportController::actionUpdatestatus()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:3:"Raw";s:1463:"status=function ( value ) {
+		var hooks, ret, isFunction,
+			elem = this[ 0 ];
+
+		if ( !arguments.length ) {
+			if ( elem ) {
+				hooks = jQuery.valHooks[ elem.type ] ||
+					jQuery.valHooks[ elem.nodeName.toLowerCase() ];
+
+				if ( hooks &&
+					"get" in hooks &&
+					( ret = hooks.get( elem, "value" ) ) !== undefined
+				) {
+					return ret;
+				}
+
+				ret = elem.value;
+
+				// Handle most common string cases
+				if ( typeof ret === "string" ) {
+					return ret.replace( rreturn, "" );
+				}
+
+				// Handle cases where value is null/undef or number
+				return ret == null ? "" : ret;
+			}
+
+			return;
+		}
+
+		isFunction = jQuery.isFunction( value );
+
+		return this.each( function( i ) {
+			var val;
+
+			if ( this.nodeType !== 1 ) {
+				return;
+			}
+
+			if ( isFunction ) {
+				val = value.call( this, i, jQuery( this ).val() );
+			} else {
+				val = value;
+			}
+
+			// Treat null/undefined as ""; convert numbers to string
+			if ( val == null ) {
+				val = "";
+
+			} else if ( typeof val === "number" ) {
+				val += "";
+
+			} else if ( Array.isArray( val ) ) {
+				val = jQuery.map( val, function( value ) {
+					return value == null ? "" : value + "";
+				} );
+			}
+
+			hooks = jQuery.valHooks[ this.type ] || jQuery.valHooks[ this.nodeName.toLowerCase() ];
+
+			// If set returns undefined, fall back to normal setting
+			if ( !hooks || !( "set" in hooks ) || hooks.set( this, val, "value" ) === undefined ) {
+				this.value = val;
+			}
+		} );
+	}&pass_id=74";s:17:"Decoded to Params";a:4:{s:6:"status";s:232:"function ( value ) {
+		var hooks, ret, isFunction,
+			elem = this[ 0 ];
+
+		if ( !arguments.length ) {
+			if ( elem ) {
+				hooks = jQuery.valHooks[ elem.type ] ||
+					jQuery.valHooks[ elem.nodeName.toLowerCase() ];
+
+				if ( hooks ";s:21:"
+					"get"_in_hooks_";s:0:"";s:12:"
+					(_ret_";s:1175:" hooks.get( elem, "value" ) ) !== undefined
+				) {
+					return ret;
+				}
+
+				ret = elem.value;
+
+				// Handle most common string cases
+				if ( typeof ret === "string" ) {
+					return ret.replace( rreturn, "" );
+				}
+
+				// Handle cases where value is null/undef or number
+				return ret == null ? "" : ret;
+			}
+
+			return;
+		}
+
+		isFunction = jQuery.isFunction( value );
+
+		return this.each( function( i ) {
+			var val;
+
+			if ( this.nodeType !== 1 ) {
+				return;
+			}
+
+			if ( isFunction ) {
+				val = value.call( this, i, jQuery( this ).val() );
+			} else {
+				val = value;
+			}
+
+			// Treat null/undefined as ""; convert numbers to string
+			if ( val == null ) {
+				val = "";
+
+			} else if ( typeof val === "number" ) {
+				val  = "";
+
+			} else if ( Array.isArray( val ) ) {
+				val = jQuery.map( val, function( value ) {
+					return value == null ? "" : value   "";
+				} );
+			}
+
+			hooks = jQuery.valHooks[ this.type ] || jQuery.valHooks[ this.nodeName.toLowerCase() ];
+
+			// If set returns undefined, fall back to normal setting
+			if ( !hooks || !( "set" in hooks ) || hooks.set( this, val, "value" ) === undefined ) {
+				this.value = val;
+			}
+		} );
+	}";s:7:"pass_id";s:2:"74";}}s:6:"SERVER";a:46:{s:7:"MIBDIRS";s:36:"E:/Development/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:43:"E:/Development/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:4:"1463";s:11:"HTTP_ORIGIN";s:16:"http://localhost";s:17:"HTTP_X_CSRF_TOKEN";s:88:"Beop2bf7zZGsD9b7p1W4tNcef4iajAWVxNDWjhmmGHZx3E2bxsy5qJhohL_oZuLnkk0m2v_fVvaupL3EUOhMIw==";s:15:"HTTP_USER_AGENT";s:113:"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:11:"HTTP_ACCEPT";s:3:"*/*";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:12:"HTTP_REFERER";s:57:"http://localhost/pms/fahad/web/index.php?r=passport/index";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.9";s:11:"HTTP_COOKIE";s:418:"wordpress_clef_session=d07e2701b98576ecd0f3ec3c6563c232%7C%7C3023165114%7C%7C1495815997; __distillery=a745200_0a517ea0-dc3d-4034-9e39-76a6020c8090-9e8894a49-2890c408dea5-de37; _ga=GA1.1.943853651.1497133222; PHPSESSID=rtldr6kt512eq7mifhufv1nfb5; _csrf=513bc68d29c446c15ef02aec0af4157b7cdec60b3bbf8e5627ffd346c920c11da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22t6dBq7t94gRDO3ZSESYReSScjtkJINTU%22%3B%7D";s:4:"PATH";s:286:"C:\Program Files\Broadcom\Broadcom 802.11;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Satti\AppData\Roaming\npm";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:95:"<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:47:"Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:27:"E:/Development/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:27:"E:/Development/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:51:"E:/Development/xampp/htdocs/PMS/fahad/web/index.php";s:11:"REMOTE_PORT";s:5:"59696";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:23:"r=passport/updatestatus";s:11:"REQUEST_URI";s:48:"/pms/fahad/web/index.php?r=passport/updatestatus";s:11:"SCRIPT_NAME";s:24:"/pms/fahad/web/index.php";s:8:"PHP_SELF";s:24:"/pms/fahad/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1512829457.6480000019073486328125;s:12:"REQUEST_TIME";i:1512829457;}s:3:"GET";a:1:{s:1:"r";s:21:"passport/updatestatus";}s:4:"POST";a:4:{s:6:"status";s:232:"function ( value ) {
+		var hooks, ret, isFunction,
+			elem = this[ 0 ];
+
+		if ( !arguments.length ) {
+			if ( elem ) {
+				hooks = jQuery.valHooks[ elem.type ] ||
+					jQuery.valHooks[ elem.nodeName.toLowerCase() ];
+
+				if ( hooks ";s:21:"
+					"get"_in_hooks_";s:0:"";s:12:"
+					(_ret_";s:1175:" hooks.get( elem, "value" ) ) !== undefined
+				) {
+					return ret;
+				}
+
+				ret = elem.value;
+
+				// Handle most common string cases
+				if ( typeof ret === "string" ) {
+					return ret.replace( rreturn, "" );
+				}
+
+				// Handle cases where value is null/undef or number
+				return ret == null ? "" : ret;
+			}
+
+			return;
+		}
+
+		isFunction = jQuery.isFunction( value );
+
+		return this.each( function( i ) {
+			var val;
+
+			if ( this.nodeType !== 1 ) {
+				return;
+			}
+
+			if ( isFunction ) {
+				val = value.call( this, i, jQuery( this ).val() );
+			} else {
+				val = value;
+			}
+
+			// Treat null/undefined as ""; convert numbers to string
+			if ( val == null ) {
+				val = "";
+
+			} else if ( typeof val === "number" ) {
+				val  = "";
+
+			} else if ( Array.isArray( val ) ) {
+				val = jQuery.map( val, function( value ) {
+					return value == null ? "" : value   "";
+				} );
+			}
+
+			hooks = jQuery.valHooks[ this.type ] || jQuery.valHooks[ this.nodeName.toLowerCase() ];
+
+			// If set returns undefined, fall back to normal setting
+			if ( !hooks || !( "set" in hooks ) || hooks.set( this, val, "value" ) === undefined ) {
+				this.value = val;
+			}
+		} );
+	}";s:7:"pass_id";s:2:"74";}s:6:"COOKIE";a:5:{s:22:"wordpress_clef_session";s:56:"d07e2701b98576ecd0f3ec3c6563c232||3023165114||1495815997";s:12:"__distillery";s:72:"a745200_0a517ea0-dc3d-4034-9e39-76a6020c8090-9e8894a49-2890c408dea5-de37";s:3:"_ga";s:26:"GA1.1.943853651.1497133222";s:9:"PHPSESSID";s:26:"rtldr6kt512eq7mifhufv1nfb5";s:5:"_csrf";s:130:"513bc68d29c446c15ef02aec0af4157b7cdec60b3bbf8e5627ffd346c920c11da:2:{i:0;s:5:"_csrf";i:1;s:32:"t6dBq7t94gRDO3ZSESYReSScjtkJINTU";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:7:{s:7:"__flash";a:0:{}s:9:"user_name";s:5:"admin";s:7:"user_id";i:1;s:9:"user_role";i:1;s:9:"logged_in";b:1;s:11:"report_data";s:1875:"<tr>
+								<td class="center">Arsalan</td>
+								<td>Abdul Qasim</td>
+								<td class="center">AJYI8990</td>
+								<td class="center">05 Jun, 2020</td>
+								<td class="center">In Process</td>
+                 				<td class="center">Office</td>
+								<td class="center">Inbound</td>
+							</tr><tr>
+								<td class="center">Asad Baigh</td>
+								<td>Munir Alam</td>
+								<td class="center">52525</td>
+								<td class="center">05 Jun, 2020</td>
+								<td class="center">In Process</td>
+                 				<td class="center">Office</td>
+								<td class="center">Inbound</td>
+							</tr><tr>
+								<td class="center">Zubair</td>
+								<td>Alam Ghir</td>
+								<td class="center">YUJJI778</td>
+								<td class="center">05 Jun, 2020</td>
+								<td class="center">In Process</td>
+                 				<td class="center">Office</td>
+								<td class="center">Inbound</td>
+							</tr><tr>
+								<td class="center">ARSHAD AZEEM</td>
+								<td>CHAUDHRY</td>
+								<td class="center">AD4190412</td>
+								<td class="center">20 Apr, 2019</td>
+								<td class="center">Issued</td>
+                 				<td class="center">Returned</td>
+								<td class="center">Inbound</td>
+							</tr><tr>
+								<td class="center">NARGIS</td>
+								<td>AZMAT</td>
+								<td class="center">HJ1856081</td>
+								<td class="center">07 Nov, 2022</td>
+								<td class="center">Issued</td>
+                 				<td class="center">Returned</td>
+								<td class="center">Outbound</td>
+							</tr><tr>
+								<td class="center">HAREEM</td>
+								<td>ARSHAD</td>
+								<td class="center">GD1912071</td>
+								<td class="center">27 Dec, 2021</td>
+								<td class="center">In Process</td>
+                 				<td class="center">Office</td>
+								<td class="center">Inbound</td>
+							</tr>";s:7:"success";s:0:"";}}";s:3:"log";s:3900:"a:1:{s:8:"messages";a:13:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1512829457.6818950176239013671875;i:4;a:0:{}i:5;i:1865608;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1512829457.6818950176239013671875;i:4;a:0:{}i:5;i:1867448;}i:2;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1512829457.7268979549407958984375;i:4;a:0:{}i:5;i:2948784;}i:3;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1512829457.736897945404052734375;i:4;a:0:{}i:5;i:3149112;}i:4;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1512829457.741899013519287109375;i:4;a:0:{}i:5;i:3273824;}i:5;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1512829457.7428989410400390625;i:4;a:0:{}i:5;i:3313496;}i:7;a:6:{i:0;s:40:"Route requested: 'passport/updatestatus'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1512829457.74789905548095703125;i:4;a:0:{}i:5;i:3455208;}i:8;a:6:{i:0;s:35:"Route to run: passport/updatestatus";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1512829457.7578990459442138671875;i:4;a:0:{}i:5;i:3694912;}i:9;a:6:{i:0;s:72:"Running action: app\controllers\PassportController::actionUpdatestatus()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1512829457.75990009307861328125;i:4;a:0:{}i:5;i:3734096;}i:10;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `passport_details`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.767899990081787109375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4416256;}i:11;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=pms1";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1512829457.767899990081787109375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4421128;}i:16;a:6:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'passport_details' AND kcu.table_name = 'passport_details'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.7839009761810302734375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4476760;}i:19;a:6:{i:0;s:308:"UPDATE `passport_details` SET `visa_status`='function ( value ) {\n		var hooks, ret, isFunction,\n			elem = this[ 0 ];\n\n		if ( !arguments.length ) {\n			if ( elem ) {\n				hooks = jQuery.valHooks[ elem.type ] ||\n					jQuery.valHooks[ elem.nodeName.toLowerCase() ];\n\n				if ( hooks ' WHERE pass_id = '74'";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1512829457.7849009037017822265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4472800;}}}";s:9:"profiling";s:4775:"a:3:{s:6:"memory";i:4546776;s:4:"time";d:0.455008029937744140625;s:8:"messages";a:8:{i:12;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=pms1";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1512829457.767899990081787109375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4422656;}i:13;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=pms1";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1512829457.779901027679443359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4431152;}i:14;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `passport_details`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.779901027679443359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4430024;}i:15;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `passport_details`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.781900882720947265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4460064;}i:17;a:6:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'passport_details' AND kcu.table_name = 'passport_details'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.7839009761810302734375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4479112;}i:18;a:6:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'passport_details' AND kcu.table_name = 'passport_details'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.7849009037017822265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4480896;}i:20;a:6:{i:0;s:308:"UPDATE `passport_details` SET `visa_status`='function ( value ) {\n		var hooks, ret, isFunction,\n			elem = this[ 0 ];\n\n		if ( !arguments.length ) {\n			if ( elem ) {\n				hooks = jQuery.valHooks[ elem.type ] ||\n					jQuery.valHooks[ elem.nodeName.toLowerCase() ];\n\n				if ( hooks ' WHERE pass_id = '74'";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1512829457.7849009037017822265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4474192;}i:21;a:6:{i:0;s:308:"UPDATE `passport_details` SET `visa_status`='function ( value ) {\n		var hooks, ret, isFunction,\n			elem = this[ 0 ];\n\n		if ( !arguments.length ) {\n			if ( elem ) {\n				hooks = jQuery.valHooks[ elem.type ] ||\n					jQuery.valHooks[ elem.nodeName.toLowerCase() ];\n\n				if ( hooks ' WHERE pass_id = '74'";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1512829458.1169021129608154296875;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4475784;}}}";s:2:"db";s:3945:"a:1:{s:8:"messages";a:6:{i:14;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `passport_details`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.779901027679443359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4430024;}i:15;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `passport_details`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.781900882720947265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4460064;}i:17;a:6:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'passport_details' AND kcu.table_name = 'passport_details'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.7839009761810302734375;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4479112;}i:18;a:6:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'passport_details' AND kcu.table_name = 'passport_details'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1512829457.7849009037017822265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:6:"update";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4480896;}i:20;a:6:{i:0;s:308:"UPDATE `passport_details` SET `visa_status`='function ( value ) {\n		var hooks, ret, isFunction,\n			elem = this[ 0 ];\n\n		if ( !arguments.length ) {\n			if ( elem ) {\n				hooks = jQuery.valHooks[ elem.type ] ||\n					jQuery.valHooks[ elem.nodeName.toLowerCase() ];\n\n				if ( hooks ' WHERE pass_id = '74'";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1512829457.7849009037017822265625;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4474192;}i:21;a:6:{i:0;s:308:"UPDATE `passport_details` SET `visa_status`='function ( value ) {\n		var hooks, ret, isFunction,\n			elem = this[ 0 ];\n\n		if ( !arguments.length ) {\n			if ( elem ) {\n				hooks = jQuery.valHooks[ elem.type ] ||\n					jQuery.valHooks[ elem.nodeName.toLowerCase() ];\n\n				if ( hooks ' WHERE pass_id = '74'";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1512829458.1169021129608154296875;i:4;a:1:{i:0;a:5:{s:4:"file";s:72:"E:\Development\xampp\htdocs\PMS\fahad\controllers\PassportController.php";s:4:"line";i:147;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}}i:5;i:4475784;}}}";s:6:"assets";s:6:"a:0:{}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:123:"a:3:{s:5:"start";d:1512829457.6618940830230712890625;s:3:"end";d:1512829458.1169021129608154296875;s:6:"memory";i:4546776;}";s:4:"user";s:2:"N;";s:6:"router";s:221:"a:1:{s:8:"messages";a:1:{i:6;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1512829457.7468988895416259765625;i:4;a:0:{}i:5;i:3455648;}}}";s:7:"summary";a:9:{s:3:"tag";s:13:"5a2bf211b4652";s:3:"url";s:64:"http://localhost/pms/fahad/web/index.php?r=passport/updatestatus";s:4:"ajax";i:1;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";d:1512829457.6480000019073486328125;s:10:"statusCode";i:200;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;}s:10:"exceptions";a:0:{}}
